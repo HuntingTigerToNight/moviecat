@@ -1,0 +1,12 @@
+(function(angular){
+  angular
+  .module('moviecat',[
+    'ngRoute',
+    'moviecat.home_page',
+    'moviecat.details',
+    'moviecat.movieList',
+    'moviecat.search',
+    'moviecat.jsonp',
+    'moviecat.directives'
+    ]);
+})(angular)
